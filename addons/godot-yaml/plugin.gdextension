@@ -1,0 +1,10 @@
+[gd_resource type="GDExtension" load_steps=2 format=2]
+
+[ext_resource path="res://addons/godot-yaml/gdyaml.gdextension" type="GDExtensionLibrary" id=1]
+
+[resource]
+
+resource_name = "gdyaml"
+class_name = "YAML"
+library = ExtResource( 1 )
+_sections_unfolded = [ "Resource" ]

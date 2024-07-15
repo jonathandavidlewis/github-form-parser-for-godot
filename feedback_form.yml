@@ -1,0 +1,71 @@
+name: Feedback Form
+description: Submit your feedback for Several Dozen Goblins
+title: "[Feedback] Issue with Controller or General Feedback"
+labels: "user feedback"
+assignees: ["loteque", "jonathandavidlewis"]
+projects: "loteque/6"
+
+body:
+  - type: textarea
+    id: controller_issues
+    attributes:
+      label: Did you have any issues with your controller?
+      description: Please provide as much detail as possible about any problems you encountered with your controller.
+      placeholder: Describe the issue here
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      value: |
+        **We would love to hear anything you would like to share about your experience with Several Dozen Goblins.**
+      label: General feedback
+      description: We would love to hear anything you would like to share about your experience with Several Dozen Goblins.
+      placeholder: Describe the issue here
+  - type: textarea
+    id: general_feedback
+    attributes:
+      label: General Feedback
+      description: Share your overall experience and any additional comments.
+      placeholder: Share your thoughts here
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: Enter your email address if you are okay with us contacting you for clarification on your feedback.
+      placeholder: Your email address
+  - type: checkboxes
+    id: contact_permission
+    attributes:
+      label: Is it okay if we contact you for clarification on your feedback?
+      options:
+        - label: Yes, you can contact me
+  - type: textarea
+    id: input_device
+    attributes:
+      label: What input device are you using?
+      description: We detected you are using (input device)
+      placeholder: Describe your input device
+  - type: textarea
+    id: operating_system
+    attributes:
+      label: Operating System
+      description: Please include your operating system
+      placeholder: Describe your operating system
+  - type: textarea
+    id: browser
+    attributes:
+      label: Browser
+      description: Please include your browser
+      placeholder: Describe your browser
+  - type: textarea
+    id: system_information
+    attributes:
+      label: System Information
+      description: Please describe your hardware...
+      placeholder: Graphics, RAM, Processor...
+  - type: checkboxes
+    id: info_permission
+    attributes:
+      label: Is it okay to include your hardware information with your feedback?
+      options:
+        - label: Yes, you can include this information
